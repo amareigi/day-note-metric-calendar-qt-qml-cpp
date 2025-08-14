@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/qttest/">
-    <file alias="src/view/qmldir">C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/qttest/src/view/qmldir</file>
-    <file alias="src/view/note/qmldir">C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/qttest/src/view/note/qmldir</file>
-    <file alias="src/view/calendar/qmldir">C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/qttest/src/view/calendar/qmldir</file>
-    <file alias="src/view/metric/qmldir">C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/qttest/src/view/metric/qmldir</file>
-  </qresource>
-</RCC>
-
