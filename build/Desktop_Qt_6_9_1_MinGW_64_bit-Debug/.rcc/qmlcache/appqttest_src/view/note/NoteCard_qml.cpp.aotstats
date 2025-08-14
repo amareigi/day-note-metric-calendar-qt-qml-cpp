@@ -1,0 +1,212 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 443,
+                        "errorMessage": "",
+                        "functionName": "fontSmall",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 263,
+                        "errorMessage": "",
+                        "functionName": "fontNormal",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 261,
+                        "errorMessage": "",
+                        "functionName": "fontIcon",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 310,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name mySpacing",
+                        "functionName": "spacing",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name mySpacing",
+                        "functionName": "margins",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name mySpacing",
+                        "functionName": "spacing",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 58
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "readOnly",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "selectByMouse",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "onEditingFinished",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 448,
+                        "errorMessage": "Cannot access value for name controller",
+                        "functionName": "finishEditing",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 43,
+                        "durationMicroseconds": 698,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onReturnPressed",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 602,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onEnterPressed",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 43,
+                        "durationMicroseconds": 216,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onEscapePressed",
+                        "line": 86
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot find name editing",
+                        "functionName": "onDoubleClicked",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 108
+                    }
+                ],
+                "filePath": "C:/Users/amareigi/Documents/qttest/src/view/note/NoteCard.qml"
+            }
+        ],
+        "moduleId": "qttest(appqttest)"
+    }
+]

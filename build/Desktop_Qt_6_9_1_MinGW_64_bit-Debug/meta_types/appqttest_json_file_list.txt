@@ -1,3 +1,3 @@
-C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/include/../NLOY5YBGEN/moc_model.cpp.json
-C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/include/../NPUKSKGWT2/moc_controller.cpp.json
-C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/include/../NPUKSKGWT2/moc_databasemanager.cpp.json
+C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/include/../KECQXMYYOW/moc_controller.cpp.json
+C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/include/../KECQXMYYOW/moc_databasemanager.cpp.json
+C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/include/../VNQA4LF4BW/moc_model.cpp.json

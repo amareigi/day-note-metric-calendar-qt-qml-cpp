@@ -1115,39 +1115,39 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/amareigi/Documents/qttest/controller/controller.h",
+			"C:/Users/amareigi/Documents/qttest/src/controller/controller.h",
 			"MU",
-			"NPUKSKGWT2/moc_controller.cpp",
+			"KECQXMYYOW/moc_controller.cpp",
 			null
 		],
 		[
-			"C:/Users/amareigi/Documents/qttest/controller/databasemanager.h",
+			"C:/Users/amareigi/Documents/qttest/src/controller/databasemanager.h",
 			"MU",
-			"NPUKSKGWT2/moc_databasemanager.cpp",
+			"KECQXMYYOW/moc_databasemanager.cpp",
 			null
 		],
 		[
-			"C:/Users/amareigi/Documents/qttest/model/day.h",
+			"C:/Users/amareigi/Documents/qttest/src/model/day.h",
 			"MU",
-			"NLOY5YBGEN/moc_day.cpp",
+			"VNQA4LF4BW/moc_day.cpp",
 			null
 		],
 		[
-			"C:/Users/amareigi/Documents/qttest/model/metrics.h",
+			"C:/Users/amareigi/Documents/qttest/src/model/metrics.h",
 			"MU",
-			"NLOY5YBGEN/moc_metrics.cpp",
+			"VNQA4LF4BW/moc_metrics.cpp",
 			null
 		],
 		[
-			"C:/Users/amareigi/Documents/qttest/model/model.h",
+			"C:/Users/amareigi/Documents/qttest/src/model/model.h",
 			"MU",
-			"NLOY5YBGEN/moc_model.cpp",
+			"VNQA4LF4BW/moc_model.cpp",
 			null
 		],
 		[
-			"C:/Users/amareigi/Documents/qttest/model/note.h",
+			"C:/Users/amareigi/Documents/qttest/src/model/note.h",
 			"MU",
-			"NLOY5YBGEN/moc_note.cpp",
+			"VNQA4LF4BW/moc_note.cpp",
 			null
 		]
 	],
@@ -1244,21 +1244,21 @@
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qttest.cpp",
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_resources_qrc.cpp",
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_qmlcache_loader.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/MyChart_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/calendar/MyDay_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/calendar/MyMonth_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/calendar/MyYear_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/main_window_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricCard_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricInput_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricList_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricToolbar_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MyMetric_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/MyNote_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NoteCard_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NoteInput_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NoteToolbar_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NotesList_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/MyChart_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/calendar/MyDay_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/calendar/MyMonth_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/calendar/MyYear_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/main_window_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricCard_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricInput_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricList_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricToolbar_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MyMetric_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/MyNote_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NoteCard_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NoteInput_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NoteToolbar_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NotesList_qml.cpp",
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -1272,20 +1272,24 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/amareigi/Documents/qttest/controller/controller.cpp",
+			"C:/Users/amareigi/Documents/qttest/src/controller/controller.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/amareigi/Documents/qttest/controller/databasemanager.cpp",
+			"C:/Users/amareigi/Documents/qttest/src/controller/databasemanager.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/amareigi/Documents/qttest/main.cpp", "MU", null ],
-		[ "C:/Users/amareigi/Documents/qttest/model/day.cpp", "MU", null ],
-		[ "C:/Users/amareigi/Documents/qttest/model/metrics.cpp", "MU", null ],
-		[ "C:/Users/amareigi/Documents/qttest/model/model.cpp", "MU", null ],
-		[ "C:/Users/amareigi/Documents/qttest/model/note.cpp", "MU", null ]
+		[ "C:/Users/amareigi/Documents/qttest/src/main.cpp", "MU", null ],
+		[ "C:/Users/amareigi/Documents/qttest/src/model/day.cpp", "MU", null ],
+		[
+			"C:/Users/amareigi/Documents/qttest/src/model/metrics.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/amareigi/Documents/qttest/src/model/model.cpp", "MU", null ],
+		[ "C:/Users/amareigi/Documents/qttest/src/model/note.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
@@ -1296,21 +1300,21 @@
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qttest.cpp",
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qrc_resources_qrc.cpp",
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_qmlcache_loader.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/MyChart_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/calendar/MyDay_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/calendar/MyMonth_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/calendar/MyYear_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/main_window_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricCard_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricInput_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricList_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MetricToolbar_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/metric/MyMetric_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/MyNote_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NoteCard_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NoteInput_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NoteToolbar_qml.cpp",
-		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_view/note/NotesList_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/MyChart_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/calendar/MyDay_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/calendar/MyMonth_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/calendar/MyYear_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/main_window_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricCard_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricInput_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricList_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MetricToolbar_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/metric/MyMetric_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/MyNote_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NoteCard_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NoteInput_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NoteToolbar_qml.cpp",
+		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.rcc/qmlcache/appqttest_src/view/note/NotesList_qml.cpp",
 		"C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],

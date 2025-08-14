@@ -1116,17 +1116,17 @@ appqttest_autogen/timestamp: \
 	C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	C:/Users/amareigi/Documents/qttest/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appqttest_autogen/moc_predefs.h \
-	C:/Users/amareigi/Documents/qttest/controller/controller.cpp \
-	C:/Users/amareigi/Documents/qttest/controller/controller.h \
-	C:/Users/amareigi/Documents/qttest/controller/databasemanager.cpp \
-	C:/Users/amareigi/Documents/qttest/controller/databasemanager.h \
-	C:/Users/amareigi/Documents/qttest/main.cpp \
-	C:/Users/amareigi/Documents/qttest/model/day.cpp \
-	C:/Users/amareigi/Documents/qttest/model/day.h \
-	C:/Users/amareigi/Documents/qttest/model/metrics.cpp \
-	C:/Users/amareigi/Documents/qttest/model/metrics.h \
-	C:/Users/amareigi/Documents/qttest/model/model.cpp \
-	C:/Users/amareigi/Documents/qttest/model/model.h \
-	C:/Users/amareigi/Documents/qttest/model/note.cpp \
-	C:/Users/amareigi/Documents/qttest/model/note.h \
+	C:/Users/amareigi/Documents/qttest/src/controller/controller.cpp \
+	C:/Users/amareigi/Documents/qttest/src/controller/controller.h \
+	C:/Users/amareigi/Documents/qttest/src/controller/databasemanager.cpp \
+	C:/Users/amareigi/Documents/qttest/src/controller/databasemanager.h \
+	C:/Users/amareigi/Documents/qttest/src/main.cpp \
+	C:/Users/amareigi/Documents/qttest/src/model/day.cpp \
+	C:/Users/amareigi/Documents/qttest/src/model/day.h \
+	C:/Users/amareigi/Documents/qttest/src/model/metrics.cpp \
+	C:/Users/amareigi/Documents/qttest/src/model/metrics.h \
+	C:/Users/amareigi/Documents/qttest/src/model/model.cpp \
+	C:/Users/amareigi/Documents/qttest/src/model/model.h \
+	C:/Users/amareigi/Documents/qttest/src/model/note.cpp \
+	C:/Users/amareigi/Documents/qttest/src/model/note.h \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe
