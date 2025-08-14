@@ -1,0 +1,140 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "Cannot load property invalid from QtObject.",
+                        "functionName": "selectedDate",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 132,
+                        "errorMessage": "",
+                        "functionName": "orientation",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "highlightRangeMode",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "snapMode",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "boundsBehavior",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "height",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "monthIndex",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "selectedDate",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "firstDayOfWeek",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "daysInMonth",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "mySpacing",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "onDayClicked",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onDayClicked",
+                        "line": 41
+                    }
+                ],
+                "filePath": "C:/Users/amareigi/Documents/qttest/view/MyYear.qml"
+            }
+        ],
+        "moduleId": "qttest(appqttest)"
+    }
+]

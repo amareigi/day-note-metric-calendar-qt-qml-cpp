@@ -1,0 +1,204 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 155,
+                        "errorMessage": "",
+                        "functionName": "boundsBehavior",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "contentHeight",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "contentWidth",
+                        "line": 78
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 171,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name mySpacing",
+                        "functionName": "spacing",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 278,
+                        "errorMessage": "",
+                        "functionName": "cellWidth",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name flow",
+                        "functionName": "width",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "mySpacing",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "idMetric",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "date",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "name",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "rating",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "onCardClicked",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "visible",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot access value for name mySpacing",
+                        "functionName": "margins",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 69
+                    }
+                ],
+                "filePath": "C:/Users/amareigi/Documents/qttest/view/metric/MetricList.qml"
+            }
+        ],
+        "moduleId": "qttest(appqttest)"
+    }
+]

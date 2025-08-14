@@ -1,0 +1,108 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 16,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "Cannot access value for name calendarController",
+                        "functionName": "model",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 200,
+                        "errorMessage": "",
+                        "functionName": "cellWidth",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "cellHeight",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot access value for name daysGrid",
+                        "functionName": "width",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot access value for name daysGrid",
+                        "functionName": "height",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "Cannot access value for name day",
+                        "functionName": "text",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 351,
+                        "errorMessage": "Cannot access value for name isCurrentMonth",
+                        "functionName": "color",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 253,
+                        "errorMessage": "Cannot access value for name hasEvent",
+                        "functionName": "bold",
+                        "line": 45
+                    }
+                ],
+                "filePath": "C:/Users/amareigi/Documents/qttest/CalendarView.qml"
+            }
+        ],
+        "moduleId": "qttest(appqttest)"
+    }
+]

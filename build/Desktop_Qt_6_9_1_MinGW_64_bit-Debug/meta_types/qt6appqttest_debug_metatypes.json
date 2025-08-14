@@ -1,0 +1,350 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Model",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "Model",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "currentDateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "selectedDateChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "model.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Controller",
+                "lineNumber": 13,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "displayedYear",
+                        "notify": "displayedYearChanged",
+                        "read": "displayedYear",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "systemDate",
+                        "notify": "systemDateChanged",
+                        "read": "systemDate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QDate",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "selectedDate",
+                        "notify": "selectedDateChanged",
+                        "read": "selectedDate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QDate",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "filteredNotes",
+                        "notify": "filteredNotesChanged",
+                        "read": "filteredNotes",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "filteredMetrics",
+                        "notify": "filteredMetricsChanged",
+                        "read": "filteredMetrics",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "allMetricNames",
+                        "notify": "allMetricNamesChanged",
+                        "read": "allMetricNames",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Controller",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "displayedYearChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "systemDateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "selectedDateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "filteredNotesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "filteredMetricsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "allMetricNamesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "metricsUpdated",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "nextYear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "prevYear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newSelectedDate",
+                                "type": "QDate"
+                            }
+                        ],
+                        "index": 9,
+                        "name": "selectDate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "isoDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "name": "averageRatingForDate",
+                        "returnType": "double"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "content",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 11,
+                        "name": "addNote",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "name": "removeLastNote",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 13,
+                        "name": "removeNoteById",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newContent",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "name": "updateNoteContent",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "rating",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 15,
+                        "name": "addMetric",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 16,
+                        "name": "removeLastMetric",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 17,
+                        "name": "removeMetricById",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 18,
+                        "name": "updateMetricName",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newRating",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 19,
+                        "name": "updateMetricRating",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "controller.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "DatabaseManager",
+                "lineNumber": 13,
+                "object": true,
+                "qualifiedClassName": "DatabaseManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "databasemanager.h",
+        "outputRevision": 69
+    }
+]

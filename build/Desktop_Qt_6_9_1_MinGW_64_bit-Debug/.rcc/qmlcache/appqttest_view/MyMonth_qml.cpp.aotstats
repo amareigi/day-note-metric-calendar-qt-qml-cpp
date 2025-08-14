@@ -1,0 +1,204 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "Cannot load property invalid from QtObject.",
+                        "functionName": "selectedDate",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 354,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "monthNames",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 19,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "Cannot generate efficient code for LoadElement with non-list base type (component in C:/Users/amareigi/Documents/qttest/view/MyMonth.qml)::monthNames with type QVariant (adjusted to QJSValue, stored as QJSValue)",
+                        "functionName": "text",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 225,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "columnSpacing",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "rowSpacing",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 157,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "model",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 42,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 252,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "text",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "pixelSize",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "columnSpacing",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "rowSpacing",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "dayIndex",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "isSelected",
+                        "line": 84
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "onDayClicked",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "onDayClicked",
+                        "line": 92
+                    }
+                ],
+                "filePath": "C:/Users/amareigi/Documents/qttest/view/MyMonth.qml"
+            }
+        ],
+        "moduleId": "qttest(appqttest)"
+    }
+]

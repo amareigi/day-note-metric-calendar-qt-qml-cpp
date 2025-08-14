@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"wrapMode\".",
+                        "functionName": "wrapMode",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onReturnPressed",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "Cannot access value for name event",
+                        "functionName": "onEnterPressed",
+                        "line": 28
+                    }
+                ],
+                "filePath": "C:/Users/amareigi/Documents/qttest/view/metric/MetricInput.qml"
+            }
+        ],
+        "moduleId": "qttest(appqttest)"
+    }
+]

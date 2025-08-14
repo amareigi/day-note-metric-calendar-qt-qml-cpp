@@ -1,0 +1,18 @@
+module qttest
+typeinfo appqttest.qmltypes
+prefer :/qt/qml/qttest/
+MyNote 1.0 view/note/MyNote.qml
+MyChart 1.0 view/MyChart.qml
+MyYear 1.0 view/calendar/MyYear.qml
+MyMonth 1.0 view/calendar/MyMonth.qml
+MyDay 1.0 view/calendar/MyDay.qml
+NoteToolbar 1.0 view/note/NoteToolbar.qml
+NoteInput 1.0 view/note/NoteInput.qml
+NoteCard 1.0 view/note/NoteCard.qml
+NotesList 1.0 view/note/NotesList.qml
+MyMetric 1.0 view/metric/MyMetric.qml
+MetricCard 1.0 view/metric/MetricCard.qml
+MetricInput 1.0 view/metric/MetricInput.qml
+MetricList 1.0 view/metric/MetricList.qml
+MetricToolbar 1.0 view/metric/MetricToolbar.qml
+
