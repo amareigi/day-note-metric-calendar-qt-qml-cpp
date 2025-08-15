@@ -2,21 +2,27 @@ cmake_minimum_required(VERSION 3.16)
 
 project(qttest VERSION 0.1 LANGUAGES CXX)
 
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick Core Sql Charts)
+find_package(Qt6 6.8 REQUIRED COMPONENTS Quick Core Sql Charts)
 
-qt_standard_project_setup(REQUIRES 6.8)
+qt_standard_project_setup()
 
+# Исполняемый файл
 qt_add_executable(appqttest
     src/main.cpp
+    src/model/model.h src/model/model.cpp
+    src/controller/controller.h src/controller/controller.cpp
+    src/controller/databasemanager.h src/controller/databasemanager.cpp
 )
 
-qt_add_resources(appqttest "resources.qrc"
-    PREFIX "/"
-    FILES
-        # Путь к QML-файлу относительно папки проекта
-        src/view/main_window.qml
+# Ресурсы (QML + иконки)
+qt_add_qml_module(appqttest
+    URI qttest
+    VERSION 1.0
+    QML_FILES
+        src/view/MainWindow.qml
         src/view/calendar/MyCalendar.qml
         src/view/calendar/MyYear.qml
         src/view/calendar/MyMonth.qml
@@ -32,51 +38,17 @@ qt_add_resources(appqttest "resources.qrc"
         src/view/metric/MetricInput.qml
         src/view/metric/MetricList.qml
         src/view/metric/MetricToolbar.qml
+    RESOURCES
         icons/logo_qttest.png
 )
 
-qt_add_qml_module(appqttest
-    URI qttest
-    VERSION 1.0
-    QML_FILES
-    src/view/main_window.qml
-    RESOURCES
-    src/view/calendar/MyCalendar.qml # Добавляем Calendar.qml в ресурсы
-    SOURCES
-    SOURCES src/model/model.h src/model/model.cpp
-    SOURCES
-    SOURCES
-        SOURCES
-        SOURCES src/controller/controller.h src/controller/controller.cpp
-        QML_FILES src/view/note/MyNote.qml
-        QML_FILES src/view/MyChart.qml
-        QML_FILES src/view/calendar/MyYear.qml
-        QML_FILES src/view/calendar/MyMonth.qml
-        QML_FILES src/view/calendar/MyDay.qml
-        QML_FILES
-        QML_FILES src/view/note/NoteToolbar.qml
-        QML_FILES src/view/note/NoteInput.qml
-        QML_FILES src/view/note/NoteCard.qml
-        QML_FILES src/view/note/NotesList.qml
-        QML_FILES src/view/metric/MyMetric.qml
-        QML_FILES src/view/metric/MetricCard.qml
-        QML_FILES src/view/metric/MetricInput.qml
-        QML_FILES src/view/metric/MetricList.qml
-        QML_FILES src/view/metric/MetricToolbar.qml
-        SOURCES src/controller/databasemanager.h src/controller/databasemanager.cpp
-)
-
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
+# Свойства для macOS/Windows
 set_target_properties(appqttest PROPERTIES
-#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appqttest
-    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
-    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
 
+# Линковка
 target_link_libraries(appqttest
     PRIVATE
         Qt6::Core
@@ -85,6 +57,7 @@ target_link_libraries(appqttest
         Qt6::Charts
 )
 
+# Установка
 include(GNUInstallDirs)
 install(TARGETS appqttest
     BUNDLE DESTINATION .

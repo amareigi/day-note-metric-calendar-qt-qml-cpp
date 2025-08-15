@@ -20,8 +20,7 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextProperty("controller", controller);
 
-    const QUrl url(QStringLiteral("qrc:src/view/main_window.qml"));
-    engine.load(url);
+    engine.loadFromModule("qttest", "MainWindow");
 
     return app.exec();
 }
