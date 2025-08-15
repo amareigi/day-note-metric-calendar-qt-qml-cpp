@@ -36,7 +36,7 @@ Window {
         Text {
             Layout.fillWidth: true
             Layout.preferredHeight: Math.min(root.height * 0.05, 100)
-            font.pixelSize: 20
+            font.pixelSize: Math.min(root.width * 0.08, root.height * 0.05)
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
             wrapMode: Text.WordWrap
