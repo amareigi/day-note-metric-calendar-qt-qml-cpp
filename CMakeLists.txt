@@ -32,6 +32,7 @@ qt_add_resources(appqttest "resources.qrc"
         src/view/metric/MetricInput.qml
         src/view/metric/MetricList.qml
         src/view/metric/MetricToolbar.qml
+        icons/logo_qttest.png
 )
 
 qt_add_qml_module(appqttest
@@ -43,9 +44,9 @@ qt_add_qml_module(appqttest
     src/view/calendar/MyCalendar.qml # Добавляем Calendar.qml в ресурсы
     SOURCES
     SOURCES src/model/model.h src/model/model.cpp
-        SOURCES src/model/day.h src/model/day.cpp
-        SOURCES src/model/note.h src/model/note.cpp
-        SOURCES src/model/metrics.h src/model/metrics.cpp
+    SOURCES
+    SOURCES
+        SOURCES
         SOURCES src/controller/controller.h src/controller/controller.cpp
         QML_FILES src/view/note/MyNote.qml
         QML_FILES src/view/MyChart.qml

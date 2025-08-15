@@ -7,16 +7,16 @@ Controller::Controller(QObject *parent, Model* model)
     m_systemDate(QDate::currentDate()),
     m_selectedDate(QDate::currentDate())
 {
-    // 1. Create and initialize the database manager
+    // 1. создание и инициализация
     m_dbManager = new DatabaseManager(this);
     if (!m_dbManager->initDatabase()) {
         qWarning() << "Failed to initialize database. Application may not function correctly.";
     }
 
-    // 2. Load all data from the database
+    // 2. загрузка данных
     loadInitialData();
 
-    // 3. Filter the data for the selected date
+    // 3. обновление для выбранной даты
     updateFilteredNotes();
     updateFilteredMetrics();
 }

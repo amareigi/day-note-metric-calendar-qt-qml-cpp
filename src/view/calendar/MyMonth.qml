@@ -12,12 +12,12 @@ Item {
     property int monthIndex: 0
     property int firstDayOfWeek: 0
     property int daysInMonth: 0
-    property int year: 0  // новый пропс
+    property int year: 0
 
 
     signal dayClicked(int monthIndex, int dayIndex)
 
-    // массив с названиями месяцев в именительном падеже
+    // массив с названиями месяцев т.к. локализация плоховато работала
     property var monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
                              "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
 
@@ -66,29 +66,28 @@ Item {
             rowSpacing: root.mySpacing
 
             Repeater {
-                model: 42  // Фиксированная сетка 7x6 для стабильной высоты месяца
+                model: 42
 
                 MyDay {
                     Layout.fillWidth: true
                     Layout.fillHeight: true
 
                     dayIndex: {
-                        // Номер дня: index - firstDayOfWeek + 1
+                        // Номер дня
                         var calculatedDayNumber = index - root.firstDayOfWeek + 1;
                         // Если ячейка до первого дня или после последнего, то dayIndex = -1
                         return (index >= root.firstDayOfWeek && calculatedDayNumber <= root.daysInMonth) ? calculatedDayNumber : -1;
                     }
                     monthIndex: root.monthIndex
-                    year: root.year   // <-- вот тут используем переданный год
+                    year: root.year
 
-                    // Выделение: только для валидных дней, совпадающих с selectedDay и текущим месяцем
+                    // Выделение: только для валидных дней, совпадающих с selectedDate
                     isSelected: {
                          return dayIndex > 0 &&
                                 dayIndex === root.selectedDate.getDate() &&
                                 monthIndex === root.selectedDate.getMonth() &&
                                 year === root.selectedDate.getFullYear()
                      }
-                    // Клик: только для валидных дней, передаём dayIndex (начинается с 1, поэтому -1 для 0-based)
                     onDayClicked: function(dayIndex) {
                             root.dayClicked(root.monthIndex, dayIndex);
                     }

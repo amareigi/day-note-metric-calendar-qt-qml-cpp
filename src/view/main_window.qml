@@ -12,7 +12,7 @@ Window {
     width: Screen.width / 2
     height: Screen.height / 2
     visible: true
-    title: qsTr("Calendar with Notes and Chart") //+ " (" + controller.currentYear + ")"
+    title: qsTr("Calendar with Notes and Chart")
 
     property real mySpacing: Math.min(root.width, root.height) * 0.005
 
@@ -43,13 +43,9 @@ Window {
             text: {
                 if (controller.selectedDate instanceof Date) {
                     var selectedDay = controller.selectedDate;
-
-                    // Получаем день, месяц и год
                     var day = selectedDay.getDate();
                     var month = selectedDay.getMonth() + 1;
                     var year = selectedDay.getFullYear();
-
-                    // Форматируем дату в нужный вид
                     return (day < 10 ? "0" + day : day) + "." + (month < 10 ? "0" + month : month) + "." + year;
                 } else {
                     return "Invalid Date";

@@ -30,7 +30,7 @@ Item {
             monthIndex: index
 
             selectedDate: root.selectedDate
-            year: root.displayedYear   // <-- добавляем это
+            year: root.displayedYear
 
             firstDayOfWeek: {
                 var firstdayofweek = new Date(root.displayedYear, index, 1).getDay();

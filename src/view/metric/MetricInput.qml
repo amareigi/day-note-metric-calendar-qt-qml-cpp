@@ -21,7 +21,7 @@ TextArea {
             event.accepted = true
             root.enterPressed()
         } else {
-            event.accepted = false // даём ввести перенос строки
+            event.accepted = false
         }
     }
 

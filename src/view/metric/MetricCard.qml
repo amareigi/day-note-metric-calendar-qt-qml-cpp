@@ -129,7 +129,7 @@ Rectangle {
 
     MouseArea {
         anchors.fill: parent
-        enabled: !root.editing   // <--- блокируем клики, если редактируем
+        enabled: !root.editing
         onClicked: root.cardClicked(root.idMetric)
         onDoubleClicked: {
             editing = true

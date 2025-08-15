@@ -18,17 +18,17 @@ public:
     explicit DatabaseManager(QObject *parent = nullptr);
     ~DatabaseManager();
 
-    // Database initialization
+    // База данных
     bool initDatabase();
     void createTablesIfNeeded();
 
-    // Note operations
+    // Операции с заметками
     QVariantList loadNotes();
     int insertNote(const QString& dateStr, const QString& content);
     bool deleteNoteById(int id);
     bool updateNoteContent(int id, const QString& newContent);
 
-    // Metric operations
+    // Операции с метриками
     QVariantList loadMetrics();
     int insertMetric(const QString& dateStr, const QString& name, int rating);
     bool deleteMetricById(int id);

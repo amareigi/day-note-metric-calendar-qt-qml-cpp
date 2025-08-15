@@ -2,6 +2,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QIcon>
 
 #include "model/model.h"
 #include "controller/controller.h"
@@ -11,11 +12,12 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
 
-    // Создаем модель и контроллер, указывая app как родителя
+    // Создаем модель на будущее
     Model model;
     Controller* controller = new Controller(&app, &model);
 
-    // Регистрируем контроллер в QML
+    app.setWindowIcon(QIcon(":/icons/logo_qttest.png"));
+
     engine.rootContext()->setContextProperty("controller", controller);
 
     const QUrl url(QStringLiteral("qrc:src/view/main_window.qml"));

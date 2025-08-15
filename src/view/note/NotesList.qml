@@ -30,7 +30,6 @@ Flickable {
         onClicked: {
             root.selectedId = -1
             root.noteSelected(-1)
-            console.log("Сброс выбора заметки")
         }
     }
 
@@ -40,7 +39,6 @@ Flickable {
         spacing: mySpacing * 2
         anchors.top: parent.top
         anchors.left: parent.left
-        // anchors.margins: mySpacing * 2
 
         property int columns: 2
         property real cellWidth: Math.floor((width - (columns - 1) * spacing) / columns)
@@ -56,7 +54,6 @@ Flickable {
                 onCardClicked: {
                     root.selectedId = idNote
                     root.noteSelected(idNote)
-                    console.log("Выбрана заметка id=", idNote)
                 }
             }
         }
@@ -71,7 +68,7 @@ Flickable {
                 Text {
                     text: "Пока нет заметок..."
                     Layout.alignment: Qt.AlignHCenter
-                    font.pixelSize: 14 // адаптивный сделать
+                    font.pixelSize: 14
                     color: "#888"
                 }
             }

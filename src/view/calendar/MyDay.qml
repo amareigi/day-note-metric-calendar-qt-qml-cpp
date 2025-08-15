@@ -36,8 +36,8 @@ Rectangle {
 
     // Изначально рассчитываем цвет
     color: {
-        updateDayColor(); // Вызываем функцию для установки цвета
-        return color; // Возвращаем текущий цвет
+        updateDayColor();
+        return color;
     }
 
     onYearChanged: {
@@ -69,9 +69,8 @@ Rectangle {
     Connections {
         target: controller
 
-        // Явное определение обработчика
         function onMetricsUpdated() {
-            root.updateDayColor(); // Обновляем цвет при изменении метрик
+            root.updateDayColor();
         }
         function onDisplayedYearChanged() {
                 root.updateDayColor();

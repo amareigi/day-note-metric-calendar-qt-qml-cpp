@@ -83,7 +83,7 @@ Item {
 
                 ctx.fillText(displayName, x + barWidth / 2, height - paddingBottom + 5)
 
-                ctx.fillStyle = "#42A5F5" // вернуть цвет для следующего столбца
+                ctx.fillStyle = "#42A5F5"
             }
         }
     }

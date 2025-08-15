@@ -8,7 +8,7 @@
 #include <QStringList>
 
 #include "../model/model.h"
-#include "DatabaseManager.h" // Include our new database class
+#include "DatabaseManager.h"
 
 class Controller : public QObject
 {
@@ -61,7 +61,7 @@ private:
     void loadInitialData();
 
     Model* m_calendarModel;
-    DatabaseManager* m_dbManager; // Use a pointer to the new database manager
+    DatabaseManager* m_dbManager;
 
     int m_displayedYear;
     QDate m_systemDate;
